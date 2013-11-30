@@ -194,7 +194,7 @@ ATTRIBUTES
   "len"
     Default: "unknown"
 
-    Reason: backend dependent
+    Reason: back-end dependent
 
   "lhead"
     Default: ""
