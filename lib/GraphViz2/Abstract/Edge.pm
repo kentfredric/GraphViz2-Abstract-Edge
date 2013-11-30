@@ -287,7 +287,7 @@ Default: C<"">
 
 Default: L<< C<unknown>|/UNKNOWN >>
 
-Reason: backend dependent
+Reason: back-end dependent
 
 =attr C<lhead>
 

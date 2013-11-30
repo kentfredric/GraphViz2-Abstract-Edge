@@ -237,7 +237,7 @@ Default: `""`
 
 Default: [`unknown`](#unknown)
 
-Reason: backend dependent
+Reason: back-end dependent
 
 ## `lhead`
 
