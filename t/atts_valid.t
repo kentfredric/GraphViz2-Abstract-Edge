@@ -25,7 +25,7 @@ subtest "Generate test file with canonicalised data" => sub {
       my $graph = GraphViz2->new();
       my $node  = GraphViz2::Abstract::Edge->new();
       my $hash  = $node->as_canon_hash();
-      $graph->add_edge( %{$hash} );
+      $graph->add_edge( from => a => to => b => %{$hash} );
       $graph->run( format => $render_engine, output_file => "$file_a" );
     },
     undef,
@@ -38,7 +38,7 @@ subtest "Generate test file with minimal data" => sub {
       my $graph = GraphViz2->new();
       my $node  = GraphViz2::Abstract::Edge->new();
       my $hash  = $node->as_hash();
-      $graph->add_edge( %{$hash} );
+      $graph->add_edge( from => a => to => b => %{$hash} );
       $graph->run( format => $render_engine, output_file => "$file_b" );
     },
     undef,

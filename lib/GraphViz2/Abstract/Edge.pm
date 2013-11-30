@@ -32,8 +32,8 @@ our @CARP_NOT;
 
     # Later:
 
-    $graph->add_edge(%{ $edge->as_hash }); # Adds only the data that is not the same as GraphViz's defaults
-    $graph->add_edge(%{ $edge->as_canon_hash }); # Adds all the data, including hardcoded defaults
+    $graph->add_edge(from => a => to => b => %{ $edge->as_hash }); # Adds only the data that is not the same as GraphViz's defaults
+    $graph->add_edge(from => a => to => b => %{ $edge->as_canon_hash }); # Adds all the data, including hardcoded defaults
 
 =head1 DESCRIPTION
 
