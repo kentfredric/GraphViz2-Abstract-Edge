@@ -1,6 +1,8 @@
 Release history for GraphViz2-Abstract-Edge
 
 {{$NEXT}}
+
+0.002000 2013-12-01T06:28:23Z
  - Factor out constants into GraphViz2::Abstract::Util::Constants
 
  [Dependencies::Stats]
